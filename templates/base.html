@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traffic Signs🚦 Classification</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="{{ url_for('static', filename='css/neww.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <h3 style = '  margin-left:420px '>Traffic Signs Classifier 🚦</h3></a>
+
+        </div>
+    </nav>
+    <div class="container">
+	 	
+        <div id="content" style="margin-top:2em ">
+		 <a href="static/Sample_Data.zip" download> 
+      <button id="download-csv" style = 'background-color: darkgrey;border: ridge; margin-top: 2;margin-left: -127px; font-family: unset;'>Sample dataset</button></a> 
+    	  		<h7 style='margin-left:'0px> <i> Select All Files instead of Custom Files while uploading..</i></h7>
+
+		{% block content %}{% endblock %}
+	
+	  </div>
+
+    </div>
+</body>
+<div class="footer" style = 'height:80px; position:fixed;background-color:transparent'>
+
+<footer class="w3-center w3-black w3-padding-17" style = 'margin-bottom:0px;'>
+        <h5 ><b>contacts<b></h5>
+<div class="w3-xlarge w3-section">
+    <a href="https://www.linkedin.com/in/prashant-bisht-0b1a7b194/" target="_blank">
+	  <i class="fa fa-linkedin w3-hover-opacity "></i></a>&emsp;
+	  <a href="https://www.github.com/jayborkar" target="_blank">
+	<a href="https://www.linkedin.com/in/prashant-bisht-0b1a7b194/" target="_blank">
+	  <i class="fa fa-twitter w3-hover-opacity"></i></a>&emsp;
+	  <i class="fa fa-github w3-hover-opacity"></i></a>&emsp; 
+    <a href="https://www.facebook.com/" target="_blank">
+	  <i class="fa fa-facebook-official w3-hover-opacity"></i></a>&emsp;
+    <a href="https://www.instagram.com/" target="_blank">
+	  <i class="fa fa-instagram w3-hover-opacity"></i></a>&emsp;
+  </div>
+<script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script>
+</footer>
+</div>
+</html>

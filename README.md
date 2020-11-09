@@ -9,6 +9,10 @@ A Flask WebApp which can predict the Traffic Signs🚦 using Deep Learning
 - Run `app.py`.
 - Go to the `http://127.0.0.1:5000` and test it. It is a local Flask App.
 - Heroku App is available here:- `COMING SOON....`
+
+## GIF(jjjiff😁) OF LIVE PROJECT
+![](https://media1.giphy.com/media/X6vYSsOlCB1zAWsfZO/giphy.gif)
+
 ## Screenshots
 `SS1`
 ![Traffic Signs🚦 Classification - Google Chrome 09-11-2020 21_37_50](https://user-images.githubusercontent.com/57286404/98570023-fabe7c00-22d8-11eb-83ba-b06c9c00b49c.png )
@@ -18,6 +22,3 @@ A Flask WebApp which can predict the Traffic Signs🚦 using Deep Learning
 ![Traffic Signs🚦 Classification - Google Chrome 09-11-2020 21_37_57](https://user-images.githubusercontent.com/57286404/98570026-fb571280-22d8-11eb-9677-9236f64508b2.png)
 `SS4`
 ![Traffic Signs🚦 Classification - Google Chrome 09-11-2020 21_38_04](https://user-images.githubusercontent.com/57286404/98570036-fc883f80-22d8-11eb-8c71-627193000ac8.png)
-
-## GIF(jjjiff) OF LIVE PROJECT
-![](https://media1.giphy.com/media/X6vYSsOlCB1zAWsfZO/giphy.gif)
